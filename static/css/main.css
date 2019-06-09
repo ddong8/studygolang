@@ -37,8 +37,13 @@ a.tab_current:hover {background-color: #445; color: #fff; text-decoration: none;
     background-color: #ff0039ab;
     border-color: #e7e7e7;
 }
-.navbar-default .navbar-nav>li>a { color: #bbbbbb; }
+.navbar-default .navbar-nav>li>a { color: #f9f9f9; }
 .navbar-default .navbar-nav>.active>a { color: #ffffff; }
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: #1ab618fa;
+}
 
 .search-query {padding-left: 8px;padding-right: 8px;margin-bottom: 0;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px; height: 30px; margin-top: 6px;}
 
