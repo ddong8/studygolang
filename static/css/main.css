@@ -45,6 +45,12 @@ a.tab_current:hover {background-color: #445; color: #fff; text-decoration: none;
     background-color: #1ab618fa;
 }
 
+.btn-default {
+    color: #ffffff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
 .search-query {padding-left: 8px;padding-right: 8px;margin-bottom: 0;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px; height: 30px; margin-top: 6px;}
 
 .navbar-header .navbar-brand { margin-top: -5px; }
